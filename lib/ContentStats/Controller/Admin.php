@@ -2,7 +2,7 @@
 /**
  * $Id$
  *
- * ContentStats - an advanced private messaging solution for Zikula
+ * ContentStats - for Zikula
  *
  */
 class ContentStats_Controller_Admin extends Zikula_AbstractController

@@ -1,18 +1,9 @@
 <?php
 /**
- * Zikula Application Framework
+ * $Id$
  *
- * @copyright (c) 2002, Zikula Development Team
- * @link http://www.zikula.org
- * @version $Id: pnuserapi.php 26422 2009-08-28 15:29:44Z drak $
- * @license GNU/GPL - http://www.gnu.org/copyleft/gpl.html
- * @package Zikula_Value_Addons
- * @subpackage PendingContent
- */
-
-/**
- * get all pending items
- * @return mixed array of items, or false on failure
+ * ContentStats - for Zikula
+ *
  */
 class ContentStats_Api_User extends Zikula_AbstractApi {
   

@@ -1,13 +1,9 @@
 <?php
 /**
- * Zikula Application Framework
+ * $Id$
  *
- * @copyright (c) 2002, Zikula Development Team
- * @link http://www.zikula.org
- * @version $Id: pending.php 26534 2009-09-03 15:11:51Z drak $
- * @license GNU/GPL - http://www.gnu.org/copyleft/gpl.html
- * @package Zikula_Value_Addons
- * @subpackage PendingContent
+ * ContentStats - for Zikula
+ *
  */
 
 class ContentStats_Block_Stats extends Zikula_Controller_AbstractBlock
@@ -36,7 +32,6 @@ class ContentStats_Block_Stats extends Zikula_Controller_AbstractBlock
     /**
      * display block
      *
-     * @todo move sql execution to API
      */
     public function display($blockinfo)
     {
