@@ -9,10 +9,10 @@
         <div>
             <input type="hidden" name="authid" value="{insert name="generateauthkey" module="contentstats"}" />
             <input type="hidden" name="confirmation" value="1" />
-            <input type="hidden" name="pid" value="{$pid|pnvarprepfordisplay}" />
+            <input type="hidden" name="pid" value="{$pid|safehtml}" />
             <fieldset>
                 <legend>{gt text="Confirmation prompt"}</legend>
-                <div class="z-formbuttons">
+                <div class="z-buttons">
                     {button src=button_ok.gif set=icons/small __alt="Confirm deletion?" __title="Confirm deletion?"}
                     <a href="{modurl modname=contentstats type=admin func=view}">{img modname=core src=button_cancel.gif set=icons/small __alt="Cancel" __title="Cancel"}</a>
                 </div>

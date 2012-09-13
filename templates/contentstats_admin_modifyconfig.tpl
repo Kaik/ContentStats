@@ -12,12 +12,11 @@
                 <div class="z-formrow">
                     <label for="contentstats_itemsperpage">{gt text="Items per page"}</label>
                     <input id="contentstats_itemsperpage" type="text" name="itemsperpage" size="3" value="{$itemsperpage|safehtml}" />
-										  <label for="contentstats_imagespath">{gt text="Images Path"}</label>
+					<label for="contentstats_imagespath">{gt text="Images Path"}</label>
                     <input id="contentstats_imagespath" type="text" name="imagespath" size="32" value="{$imagespath|safehtml}" />
                 </div>
             </fieldset>
-            {* modcallhooks hookobject=module hookaction=modifyconfig module=contentstats *}
-            <div class="z-formbuttons">
+            <div class="z-buttons">
                 {button src=button_ok.gif set=icons/small __alt="Update Configuration" __title="Update Configuration"}
                 <a href="{modurl modname=contentstats type=admin func=view}">{img modname=core src=button_cancel.gif set=icons/small __alt="Cancel" __title="Cancel"}</a>
             </div>

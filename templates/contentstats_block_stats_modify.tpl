@@ -16,7 +16,7 @@
 <span class="z-itemcell z-w10"><img src="{$imagespath|safehtml}/{$currentitems.img|safehtml}" /></span>
 <span class="z-itemcell z-w22">{$currentitems.name|safehtml}</span>
  <span class="z-itemcell z-w10">
-{if $currentitems.active}{pnimg src=greenled.gif modname=core set=icons/extrasmall __alt="Active"}{else}{pnimg src=redled.gif modname=core set=icons/extrasmall __alt="Inactive"}{/if} 
+{if $currentitems.active}{img src=greenled.gif modname=core set=icons/extrasmall __alt="Active"}{else}{img src=redled.gif modname=core set=icons/extrasmall __alt="Inactive"}{/if} 
 	</span>
             </li>
             {/foreach}

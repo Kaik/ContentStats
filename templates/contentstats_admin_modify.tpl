@@ -27,8 +27,7 @@
                     <input id="contentstats_img" name="contentstats[img]" type="text" size="32" maxlength="255" value="{$item.img|safehtml}" />
                 </div>
             </fieldset>
-            {* pnmodcallhooks hookobject=item hookaction=modify hookid=$pid module=contentstats *}
-            <div class="z-formbuttons">
+            <div class="z-buttons">
                 {button src=button_ok.gif set=icons/small __alt="Update element" __title="Update element"}
                 <a href="{modurl modname=contentstats type=admin func=view}">{img modname=core src=button_cancel.gif set=icons/small __alt="Cancel" __title="Cancel"}</a>
             </div>

@@ -111,7 +111,7 @@ class ContentStats_Block_Stats extends Zikula_Controller_AbstractBlock
     public function update($blockinfo)
     {
         $vars['items'] = FormUtil::getPassedValue('statsitem');
-        $blockinfo['content'] = pnBlockVarsToContent($vars);
+        $blockinfo['content'] = BlockUtil::varsToContent($vars);
         return $blockinfo;
     }
 }
