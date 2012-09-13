@@ -24,7 +24,7 @@
                 <td>
                     {assign var="options" value=$pendingitems[pendingitems].options}
                     {section name=options loop=$options}
-                    <a href="{$options[options].url|pnvarprepfordisplay}">{img modname=core set=icons/extrasmall src=$options[options].image title=$options[options].title alt=$options[options].title}</a>
+                    <a href="{$options[options].url|safehtml}">{img modname=core set=icons/extrasmall src=$options[options].image title=$options[options].title alt=$options[options].title}</a>
                     {/section}
                 </td>
             </tr>
